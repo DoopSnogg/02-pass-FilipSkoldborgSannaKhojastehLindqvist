@@ -20,7 +20,7 @@ public class BasicCalculator implements BasicOperations {
 	}
 
 	public double division(double firstNumber, double secondNumber) {
-		if(secondNumber == 0.0) {
+		if (secondNumber == 0.0) {
 			System.out.println("Aja baja");
 			return -0.123456789;
 		} else {

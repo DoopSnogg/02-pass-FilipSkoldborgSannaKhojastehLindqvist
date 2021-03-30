@@ -5,12 +5,12 @@ import interfaces.AdvancedOperations;
 public class AdvancedCalculator extends BasicCalculator implements AdvancedOperations {
 
 	public double raisedToThePowerOf(double base, double exponent) {
-		if(base == 0 && exponent < 0) {
+		if (base == 0 && exponent < 0) {
 			System.out.println("Aja baja");
 			return -0.123456789;
 		} else {
-		double result = Math.pow(base, exponent);
-		return result;
+			double result = Math.pow(base, exponent);
+			return result;
 		}
 	}
 
@@ -25,7 +25,7 @@ public class AdvancedCalculator extends BasicCalculator implements AdvancedOpera
 	}
 
 	public double absoluteValue(double number) {
-		double result = Math.abs(number);	
+		double result = Math.abs(number);
 		return result;
 	}
 
